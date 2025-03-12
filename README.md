@@ -10,8 +10,7 @@ This is a RESTful API for managing users using Node.js and MongoDB.
 ## Setup
 1. Clone this repo:
    ```sh
-   git clone https://github.com/saiffuyf/REST-API-Nodejs-with-Express.git
-   cd Nodejs
+   git clone https://github.com/saiffuyf/RestApi-Nodejs.git
    npm start
 
 ## open postman
@@ -19,9 +18,9 @@ This is a RESTful API for managing users using Node.js and MongoDB.
 
 
 ## API Endpoints
-Method	Endpoint	           Description
-GET	    /api/users	         Get all users
-POST	  /api/users	         Create new user
+Method	Endpoint	              Description
+GET	    /api/users	           Get all users
+POST	    /api/users	           Create new user
 GET	    /api/users/:id	     Get user by ID
 PUT	    /api/users/:id	     Update user by ID
-DELETE	/api/users/:id	     Delete user by ID
+DELETE	 /api/users/:id	     Delete user by ID
