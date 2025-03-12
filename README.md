@@ -11,6 +11,7 @@ This is a RESTful API for managing users using Node.js and MongoDB.
 1. Clone this repo:
    ```sh
    git clone https://github.com/saiffuyf/RestApi-Nodejs.git
+   cd RestApi-Nodejs
    npm start
 
 ## open postman
