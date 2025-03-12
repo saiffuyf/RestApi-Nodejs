@@ -24,6 +24,7 @@ mongoose.connect(process.env.MONGO_URL)
 .catch((err)=> 
     console.error("DB Connection Failed..."));
 
+
 // Routes
 const userRoutes = require("./routers/userRoutes");
 app.use("/api/users", userRoutes);
